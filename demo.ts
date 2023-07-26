@@ -1,9 +1,11 @@
-impor { Given, When, Then } from "@wdio/cucumber-framework";
+import { Given, When, Then } from "@wdio/cucumber-framework";
 import chai from "chai"
 
 Given(/^Kasa page is opened$/, async function () {
     await browser.url("https://www.kasa.com/")
     await browser.pause(2000)
+    
+function verbose () { alert("Hello World!"); }
 
 })
 
