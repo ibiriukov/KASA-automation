@@ -4,8 +4,6 @@ import chai from "chai"
 Given(/^Kasa page is opened$/, async function () {
     await browser.url("https://www.kasa.com/")
     await browser.pause(2000)
-    
-function verbose () { alert("Hello World!"); }
 
 })
 
